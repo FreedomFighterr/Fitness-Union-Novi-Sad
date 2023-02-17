@@ -1,0 +1,31 @@
+#profile-container img.profile {
+    opacity: 0.9;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 15px var(--footer-gray);
+}
+
+#profile-container img.profile:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+#profile-container a {
+    text-decoration: none;
+}
+
+#profile-container a p.lead {
+    text-align: left;
+    color: silver;
+}
+
+img.edit-gym-logo {
+    height: 14em;
+    width: 24em;
+}
+
+img.edit-gym-logo:hover {
+    opacity: 1;
+    transform: scale(1.09);
+    cursor: pointer;
+    transition: 1s;
+}

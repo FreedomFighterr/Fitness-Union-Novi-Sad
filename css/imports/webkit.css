@@ -1,0 +1,25 @@
+/* defines scrollbar on index.html */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--main-black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: silver;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: silver;
+}
+
+/* defines scrollbar for cards */
+.card ::-webkit-scrollbar {
+    width: 2px;
+}
+
+.card ::-webkit-scrollbar-track {
+    background: transparent;
+}

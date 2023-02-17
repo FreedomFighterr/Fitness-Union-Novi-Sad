@@ -1,0 +1,71 @@
+/* This css file contains components especially for gym pages */
+
+/* training cards also used in training pages as other training cards. */
+.training-card {
+    height: 17em;
+}
+
+/* gym logo */
+#gym-logo {
+    height: 130px;
+    width: 300px;
+}
+
+#gym-logo:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+    opacity: 1;
+    transition: 1s;
+}
+
+/* gallery - carousel */
+.carousel {
+    box-shadow: 35px 35px var(--footer-gray);
+    border-radius: 100px;
+}
+
+.carousel img {
+    border-radius: 100px;
+}
+
+.carousel img:hover {
+    cursor: pointer;
+}
+
+/* progress bar */
+.progress {
+    position: relative;
+    margin-top: 25px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.progress:hover {
+    cursor: pointer;
+}
+
+.progress .progress-paragraph {
+    margin: auto;
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+/* rating stars */
+.fa {
+    font-size: 0.9em;
+}
+
+.fa:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.vote-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    opacity: 0.8;
+}

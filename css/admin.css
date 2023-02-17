@@ -1,0 +1,94 @@
+/* This css file contains components especially for admin-panel page.*/
+@import url('../css/imports/variables.css');
+@import url('../css/imports/classes.css');
+@import url('../css/imports/media-query.css');
+@import url('../css/imports/admin_profile.css');
+
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+*::selection {
+    /* after swiping text with mouse this background will happen */
+    background: red;
+}
+
+/* nav menu */
+header #admin-nav nav {
+    background-color: var(--nav-gray);
+    min-height: 10vh;
+}
+
+h1 a,
+h3 {
+    color: silver;
+    text-decoration: none;
+}
+
+header #admin-nav nav .nav-link:hover,
+h1 a:hover {
+    color: white;
+    transition: 1s;
+}
+
+/* transition for offcanvas nav */
+header #admin-nav nav .offcanvas {
+    transition: 0.3s;
+}
+
+main {
+    min-height: 90vh;
+    background-color: var(--main-black);
+    padding-bottom: 70px;
+}
+
+#error-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* table */
+table button {
+    border-radius: 15px;
+    opacity: 0.8;
+}
+
+table button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover,
+button a:hover,
+#profile-container a p.lead:hover {
+    color: white;
+    opacity: 1;
+    transition: 1s;
+}
+
+table th,
+table td {
+    border: 0.05em solid silver;
+}
+
+/* budzet tabela - budget table */
+table td.status {
+    background-color: darkgreen;
+}
+
+table td input {
+    background-color: var(--nav-gray);
+}
+
+/* footer */
+footer {
+    background-color: var(--nav-gray);
+}
+
+footer span {
+    color: silver;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness-Union Novi Sad | FUNS - Admin Panel</title>
+  <!-- Icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="../images/main/logo.png">
+  <!-- Bootstrap v5.2 -->
+  <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  <!-- Montserrat google font import-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+  <header>
+
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <h3 class="text-center my-5">User management system</h3>
+        <div class="col-lg-12 spacing-footer">
+          <div class="table-responsive">
+            <table class="table bg-dark">
+              <thead>
+                <tr>
+                  <th>NO.</th>
+                  <th>Name</th>
+                  <th>Surname</th>
+                  <th>Username</th>
+                  <th>E-Mail</th>
+                  <th>Password</th>
+                  <th>Date of birth</th>
+                  <th>Phone number</th>
+                  <th>Address</th>
+                  <th>Delete/Edit</th>
+                </tr>
+              </thead>
+
+              <!-- import code from table_of_users() function -->
+              <tbody id="users-tbody">
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="delete-modal" tabindex="-1" aria-labelledby="delete-modalLabel"
+      data-bs-backdrop="static" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="delete-modalLabel">Delete</h5>
+            <button type="button" class="btn-close bg-light mx-3" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">Are you sure you want to delete<br><span id="span-add-text"></span></p>
+          </div>
+          <div class="modal-footer" id="delete-trigger-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="text-center p-3"><span>© Copyright: Freedom Fighterr</span></div>
+  </footer>
+
+  <!-- JavaScript bundle with popper -->
+  <script src="../bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../js/validate.js"></script>
+  <script src="../js/admin-panel/admin_nav.js"></script>
+  <script src="../js/admin-panel/admin.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+/* defines scrollbar on admin-panel.html */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--nav-gray);
+}
+
+::-webkit-scrollbar-thumb {
+    background: silver;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: silver;
+}

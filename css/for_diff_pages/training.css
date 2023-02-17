@@ -1,0 +1,15 @@
+/* This css file contains components especially for training pages. */
+
+/* images in training cards */
+.training-img {
+    border-radius: 120px 0;
+    opacity: 0.8;
+    box-shadow: 15px 15px var(--footer-gray);
+    height: 25em;
+    width: 40em;
+}
+
+.training-img:hover {
+    opacity: 1;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+/* made this colors name based on homepage */
+:root {
+    --nav-black: rgba(10, 10, 10, 0.4);
+    /* also dark bg in bootstrap */
+    --nav-gray: #212529;
+    --main-black: #121212;
+    --footer-gray: #272727;
+    --footer-black: rgba(0, 0, 0, 0.2);
+}

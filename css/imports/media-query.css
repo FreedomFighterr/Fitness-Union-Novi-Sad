@@ -1,0 +1,87 @@
+@media only screen and (max-width: 536px) {
+
+    /* gym page */
+    img.training-card {
+        height: 14em;
+    }
+
+    /* training page */
+    img.training-img {
+        height: 10em;
+    }
+
+    /* admin panel page - form of fitness centres - logo*/
+    #profile-container img.edit-gym-logo {
+        width: 15em;
+        height: 10em;
+    }
+
+    /* gym logo image */
+    img#gym-logo {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+
+    /* training page */
+    img.training-img {
+        height: 20em;
+        width: 30em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    /* gym page */
+    .carousel {
+        box-shadow: 20px 20px var(--footer-siva);
+    }
+
+    /* prevent SCALE */
+    img#funs-img:hover,
+    button.btn-red:hover {
+        transform: scale(1.0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* homepage */
+    header {
+        background-position: right;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+
+    /* contact */
+    #contact-form-holder {
+        margin-bottom: 0px;
+    }
+
+    #contact-info {
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+    /* training page */
+    img.training-card {
+        height: 18em;
+    }
+}
+
+@media only screen and (min-width: 3000px) {
+    
+    /* on big screens */
+    footer a img {
+        max-height: 5vh;
+        min-width: 5vw;
+    }
+
+    .index-gym-picture {
+        height: 15vh;
+    }
+}

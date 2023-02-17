@@ -1,0 +1,161 @@
+.spacing-class-lg {
+    margin-top: 100px;
+}
+
+.spacing-class-md {
+    margin-top: 70px;
+}
+
+.spacing-class-sm {
+    margin-top: 40px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: red;
+    transform: scale(1.09);
+    transition: 0.5s;
+}
+
+/* modals */
+.modal-header {
+    border-bottom: 0.15em solid var(--nav-gray);
+}
+
+.modal-footer {
+    border-top: 0.15em solid var(--footer-gray);
+}
+
+.modal-content {
+    background-color: var(--main-black);
+    border: 0.15em solid var(--footer-gray);
+}
+
+.modal input:focus {
+    border: 0.05em solid red;
+}
+
+.modal-content button span {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.modal-content button span.red {
+    color: red;
+    text-decoration: underline;
+}
+
+.modal-content a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ***ALL CARDS*** */
+.card {
+    border-radius: 25px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.5s;
+    box-shadow: 0px 0px 10px 10px var(--footer-gray);
+}
+
+.card img {
+    opacity: 0.7;
+    border-radius: 25px 25px 0 0;
+}
+
+.card img:hover {
+    opacity: 1;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card .same-size {
+    /* for cards to be same size */
+    height: 15vh;
+    overflow-y: scroll;
+    padding: 2px;
+}
+
+.index-gym-picture {
+    height: 30vh;
+}
+
+/* all .btn classes added transition */
+.btn:hover {
+    transition: 1s;
+}
+
+/* register input messages */
+div .red-center {
+    text-align: center;
+}
+
+.red-center small {
+    color: red;
+    font-weight: bold;
+}
+
+/* custom  / switcher button (in settings modal) */
+#switcher-holder {
+    position: relative;
+    height: 30px;
+    width: 65px;
+    background: var(--nav-black);
+    border-radius: 40px;
+    border: 1px solid silver;
+}
+
+#switcher-holder:hover {
+    cursor: pointer;
+}
+
+#switcher-button {
+    position: absolute;
+    color: black;
+    height: 28px;
+    width: 42px;
+    border-radius: 100px;
+    margin: 0px -10px;
+}
+
+/* custom / back to top arrow */
+.to-top {
+    position: fixed;
+    bottom: 15px;
+    width: 55px;
+    height: 55px;
+    background-color: var(--nav-black);
+    right: 32px;
+    border: 1pt solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    transition: 1s;
+    pointer-events: none;
+}
+
+.to-top i {
+    font-size: 25px;
+}
+
+.to-top.active {
+    bottom: 30px;
+    pointer-events: auto;
+    opacity: 0.6;
+}
+
+.to-top.active:hover {
+    opacity: 1;
+}

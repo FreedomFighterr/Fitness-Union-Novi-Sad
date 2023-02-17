@@ -1,0 +1,121 @@
+@import url('../css/imports/variables.css');
+@import url('../css/imports/classes.css');
+@import url('../css/imports/media-query.css');
+@import url('../css/imports/webkit.css');
+@import url('../css/for_diff_pages/gym.css');
+@import url('../css/for_diff_pages/training.css');
+
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+*::selection {
+    /* after focusing text with mouse this background will happen */
+    background: red;
+}
+
+nav {
+    background-color: var(--nav-black);
+    min-height: 10vh;
+}
+
+.nav-link:hover {
+    color: white;
+    transition: 1s;
+}
+
+/* transition for offcanvas nav */
+.offcanvas {
+    transition: 0.3s;
+}
+
+/* dropdown custom */
+.dropdown-nav {
+    background-color: var(--nav-gray);
+    border: none;
+    text-align: center;
+}
+
+/* dropdown custom */
+.dropdown-nav>li a {
+    color: silver;
+    padding: 5px;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.dropdown-nav li a:hover {
+    background-color: var(--nav-gray);
+    color: white;
+    transition: 1s;
+    cursor: pointer;
+}
+
+/* login modal and form */
+#login-modal {
+    text-align: center;
+}
+
+/* registration modal and form */
+#registration-modal {
+    text-align: center;
+}
+
+header {
+    background: url('../images/main/header.jpg');
+    background-size: cover;
+    background-position: right;
+    min-height: 50vh;
+}
+
+header h1 {
+    color: silver;
+    text-align: center;
+}
+
+/* funs logo */
+.fu-logo {
+    height: 90px;
+    width: 140px;
+}
+
+main {
+    background: var(--main-black);
+    min-height: 50vh;
+    padding-bottom: 70px;
+}
+
+footer {
+    background-color: var(--footer-gray);
+}
+
+footer a,
+p {
+    color: silver;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    transition: 1s;
+}
+
+footer img:hover {
+    cursor: pointer;
+    transition: 1s;
+    transform: scale(1.09)
+}
+
+footer img {
+    max-height: 20vh;
+    min-width: 20vw;
+}
+
+footer #footer-lower {
+    background-color: var(--footer-gray);
+}
+
+footer #footer-lower span {
+    color: silver;
+}
