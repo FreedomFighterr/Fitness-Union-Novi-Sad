@@ -122,7 +122,7 @@ function gym_training_cards(root, training) {
 
         let a = document.createElement('a')
         a.classList.add('btn', 'btn-outline-light', 'px-5')
-        a.textContent = "Više informacija"
+        a.textContent = "More info"
         a.style = "margin: 0px auto;"
         a.addEventListener('click', () => {
             window.document.location.href = "../html/training.html" + "?=" + gym_list[id].name.replaceAll(" ", "") + "?=" + root + "?=" + i

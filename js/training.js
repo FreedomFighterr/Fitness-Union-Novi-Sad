@@ -92,7 +92,7 @@ function other_training_cards() {
 
         let a = document.createElement('a')
         a.classList.add('btn', 'btn-outline-light', 'px-3')
-        a.textContent = 'Više informacija'
+        a.textContent = 'More info'
         a.addEventListener('click', () => {
             document.location.href = "../html/training.html" + "?=" + gym_name + "?=" + root_id + "?=" + trainings_string_list[i]
         })
