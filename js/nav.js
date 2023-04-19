@@ -233,7 +233,7 @@ function footer_load() {
         </div>
 
     </div>
-    <div class="text-center p-3" id="footer-lower" ><span>©Copyright: All rights reserved by Freedom Fighterr</span>
+    <div class="text-center p-3" id="footer-lower" ><span>©Copyright: All rights reserved by Andrej Stjepanović</span>
     </div>
     `
     document.querySelector("footer").appendChild(footer_child)
